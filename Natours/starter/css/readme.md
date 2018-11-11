@@ -40,4 +40,14 @@ To render the page: visual formatting model
 
 Final rendered website
 
-## Parse CSS
+# Parse CSS
+
+## CSS terminology
+
+- Selectors and declaration blocks
+
+## Cascade
+
+Combine and resolve conflicts between rules and declarations
+
+Importance -> Specificity -> Source order
