@@ -64,7 +64,7 @@ nav {
   }
 
   &:hover {
-    background-color: darken($color-secondary, 15%);
+    background-color: lighten($color-secondary, 15%);
   }
 }
 
