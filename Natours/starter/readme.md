@@ -102,3 +102,7 @@ Props related to text are inherited
 Margin etc is not inherited
 
 The computed, not the declared value is inherted
+
+# how and why we use rem uniuts
+
+We want an easy way to set settings to simplify media queries
