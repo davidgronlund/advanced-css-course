@@ -106,3 +106,63 @@ The computed, not the declared value is inherted
 # how and why we use rem uniuts
 
 We want an easy way to set settings to simplify media queries
+
+# The box model
+
+Each element can be seen as a box
+
+## Padding
+
+Inside the box
+
+## Border
+
+Goes around the content and the padding
+
+## Margin
+
+Is whitespace outside the box. Space between boxes.
+
+## Fill area
+
+Area filled by background color/image. content + padding
+
+By default, padding and margin makes up the total width, height of a box. With box-sizing: border-box, they are not included in the total
+
+## Block-level boxes
+
+display:block
+100% of parent width
+vertically one after another
+
+## Inline boxes
+
+display:inline
+content distributed in lines
+occupies only content's space
+no heights and widths
+padding and margins only horizontal
+
+## inline-block
+
+display: inline-block
+are inline boxes but work as block level boxes internally
+no line breaks
+only content's space
+
+# Positioning schemes
+
+##Normal flow
+
+- not floated
+- laid out according to source order
+  ##Floats
+- elemnt is removed from the normal flow
+- text and inline elemnt wraps arout floated
+- the container willnot ajdust its height to the element (clear-fix solution)
+  ##Absolute
+- element is removed from normal flow
+- no inpact on surrounding elements
+- top, right to
+
+# Stacking contexts
