@@ -26,8 +26,7 @@ nav {
 .buttons {
   float: right; }
 
-.btn-main:link,
-.btn-hot:link {
+.btn-main:link, .btn-hot:link {
   padding: 10px;
   display: inline-block;
   text-align: center;
