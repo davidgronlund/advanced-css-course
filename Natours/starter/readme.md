@@ -51,3 +51,44 @@ Final rendered website
 Combine and resolve conflicts between rules and declarations
 
 Importance -> Specificity -> Source order
+
+## Specificity
+
+inline style, id, classes, element (a, div etc.)
+(0,0,0,0)
+
+## How css values are processed
+
+Percentage and relative value are always converted to pixels
+
+### Rem font-size
+
+Always relative to root font-size
+
+## How units are converted from relative to absolute (PX)
+
+The percentage based unit is always based on the parent element
+
+### em (font)
+
+3 x parent element computed font-size = (3 \* 24) = 72px
+
+### em (lengths)
+
+x _ current element computed font-size (3 _ 16) = 48px
+
+### rem (font, length)
+
+x \* root computed font-size
+
+#### Why use rem and em's if they are based on font size?
+
+We can build more robust responsive layouts, because by changing font size, we will automatically change length. Gives flexibility.
+
+### vh
+
+1 vh = 1 % of view height
+
+### vw
+
+1 vw = 1 % of view width
