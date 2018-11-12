@@ -16,6 +16,7 @@ $width-button: 150px;
   text-transform: uppercase;
   color: $color;
 }
+
 @mixin clearfix {
   &::after {
     content: "";
