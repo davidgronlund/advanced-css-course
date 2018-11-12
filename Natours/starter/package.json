@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "live-server": "^1.2.0",
-    "liveserver": "^0.1.20"
+  "dependencies": {},
+  "devDependencies": {
+    "liveserver": "^0.1.20",
+    "node-sass": "^4.10.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "liveserver"
+    "start": "liveserver",
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
   "license": "ISC"
