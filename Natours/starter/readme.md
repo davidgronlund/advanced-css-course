@@ -166,3 +166,48 @@ only content's space
 - top, right to
 
 # Stacking contexts
+
+# The think, build, architecture mindset
+
+## Think
+
+about layout before building
+
+### Component driven design
+
+- modular building block make up interfaces
+- -held together by the layout of the page
+- re-usable acress a project or between project
+- independent allowing us to use them anywhere on the page
+
+### atomic design
+
+atoms, molecules, organismns, templates, pages
+
+## Build
+
+### Meaningful names
+
+### BEM
+
+block element modifier
+
+- block is a standalone component that is meaningful on its own
+- element part of a block that has no standalone meaning
+- modifier a different version of a block or an element
+
+## Architect
+
+### The 7-1 pattern
+
+- 7 different folders for partial sass files and 1 main sass file to import all other files into a compiled css stylesheet
+
+### the 7 folders
+
+- base
+- components
+- layout
+- pages
+- themes
+- abstracts
+- vendors
