@@ -92,3 +92,13 @@ We can build more robust responsive layouts, because by changing font size, we w
 ### vw
 
 1 vw = 1 % of view width
+
+# Inheritance
+
+Every css property must have a value -> Is there a cascaded value? If no -> Is the property inherited (yes) -> the computed value is passed (ie. 16 px not 150%)
+
+Props related to text are inherited
+
+Margin etc is not inherited
+
+The computed, not the declared value is inherted
